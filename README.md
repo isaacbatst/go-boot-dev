@@ -17,3 +17,10 @@
 - [ ] Ch 13: Channels
 - [ ] Ch 14: Mutexes
 - [ ] Ch 15: Generics
+
+## Assignment
+
+Complete the messageToSend struct definition. It needs two fields:
+
+phoneNumber - an integer
+message - a string.
