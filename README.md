@@ -17,3 +17,9 @@
 - [ ] Ch 13: Channels
 - [ ] Ch 14: Mutexes
 - [ ] Ch 15: Generics
+
+## Assignment
+
+One of our clients likes us to send text messages reminding users of life events coming up.
+
+Fix the bug by using named return values in the function signature so the code will compile and run as intended.
