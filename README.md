@@ -2,8 +2,8 @@
 
 [Boot.dev Go](boot.dev) is a platform with a go course that aims to learn it by applying language features into little assignments to build Textio - Twilio's little brother. 
 
-- [ ] Ch 1: Introduction
-- [ ] Ch 2: Variables
+- [x] Ch 1: Introduction
+- [x] Ch 2: Variables
 - [ ] Ch 3: Functions
 - [ ] Ch 4 Structs
 - [ ] Ch 5: Interfaces
