@@ -17,3 +17,11 @@
 - [ ] Ch 13: Channels
 - [ ] Ch 14: Mutexes
 - [ ] Ch 15: Generics
+
+## Assignment
+
+The birthdayMessage and sendingReport structs have already implemented the getMessage methods. The getMessage method simply returns a string, and any type that implements the method can be considered a message.
+
+First, add the getMessage() method as a requirement on the message interface.
+
+Second, complete the sendMessage function. It should print a message's message, which it obtains through the interface method. Notice that your code doesn't need to worry at all about whether a specific message is a birthdayMessage or a sendingReport!
