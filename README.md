@@ -17,3 +17,9 @@
 - [ ] Ch 13: Channels
 - [ ] Ch 14: Mutexes
 - [ ] Ch 15: Generics
+
+## Assignment
+
+At Textio, a "user" struct represents an account holder, and a "sender" is just a "user" with some "sender" specific data. A "sender" is a user that has a rateLimit field that tells us how many messages they are allowed to send.
+
+Fix the system by using an embedded struct as expected by the test code.
