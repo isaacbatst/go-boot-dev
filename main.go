@@ -10,7 +10,7 @@ func sendMessage(msg message) {
 }
 
 type message interface {
-	// ?
+	getMessage() string
 }
 
 // don't edit below this line
