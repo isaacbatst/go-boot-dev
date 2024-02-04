@@ -6,7 +6,7 @@ import (
 )
 
 func sendMessage(msg message) {
-	// ?
+	fmt.Println(msg.getMessage())
 }
 
 type message interface {
@@ -35,7 +35,7 @@ func (sr sendingReport) getMessage() string {
 
 func test(m message) {
 	sendMessage(m)
-	fmt.Println("====================================\n")
+	fmt.Println("====================================")
 }
 
 func main() {
