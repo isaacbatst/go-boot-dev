@@ -4,7 +4,7 @@
 
 - [x] Ch 1: Introduction
 - [x] Ch 2: Variables
-- [ ] Ch 3: Functions
+- [x] Ch 3: Functions
 - [ ] Ch 4 Structs
 - [ ] Ch 5: Interfaces
 - [ ] Ch 6: Errors
