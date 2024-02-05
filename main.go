@@ -5,7 +5,15 @@ import (
 )
 
 func getExpenseReport(e expense) (string, float64) {
-	// ?
+	if email, ok := e.(email); ok == true {
+		return email.toAddress, email.cost()
+	}
+
+	if sms, ok := e.(sms); ok == true {
+		return sms.toPhoneNumber, sms.cost()
+	}
+
+	return "", 0.0
 }
 
 // don't touch below this line
