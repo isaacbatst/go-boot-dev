@@ -2,14 +2,23 @@ package main
 
 import (
 	"fmt"
+	"unicode/utf8"
 )
 
 func (e email) cost() float64 {
-	// ?
+	var pricePerCharacter float64
+
+	if e.isSubscribed == true {
+		pricePerCharacter = 0.01
+	} else {
+		pricePerCharacter = 0.05
+	}
+
+	return float64(utf8.RuneCountInString(e.body)) * pricePerCharacter
 }
 
 func (e email) print() {
-	// ?
+	fmt.Println(e.body)
 }
 
 // don't touch below this line
@@ -34,7 +43,7 @@ func print(p printer) {
 func test(e expense, p printer) {
 	fmt.Printf("Printing with cost: $%.2f ...\n", e.cost())
 	p.print()
-	fmt.Println("====================================\n")
+	fmt.Println("====================================")
 }
 
 func main() {
