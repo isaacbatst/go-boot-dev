@@ -17,3 +17,13 @@
 - [ ] Ch 13: Channels
 - [ ] Ch 14: Mutexes
 - [ ] Ch 15: Generics
+
+## Assignment
+
+After submitting our last snippet of code for review, a more experienced gopher told us to use a type switch instead of successive assertions. Let's make that improvement!
+
+Implement the getExpenseReport function using a type switch.
+
+If the expense is an email then it should return the email's toAddress and the cost of the email.
+If the expense is an sms then it should return the sms's toPhoneNumber and its cost.
+If the expense has any other underlying type, just return an empty string and 0.0 for the cost.
