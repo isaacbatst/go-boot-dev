@@ -6,7 +6,7 @@
 - [x] Ch 2: Variables
 - [x] Ch 3: Functions
 - [x] Ch 4 Structs
-- [ ] Ch 5: Interfaces
+- [x] Ch 5: Interfaces
 - [ ] Ch 6: Errors
 - [ ] Ch 7: Loops
 - [ ] Ch 8: Slices
