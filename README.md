@@ -7,7 +7,7 @@
 - [x] Ch 3: Functions
 - [x] Ch 4 Structs
 - [x] Ch 5: Interfaces
-- [ ] Ch 6: Errors
+- [x] Ch 6: Errors
 - [ ] Ch 7: Loops
 - [ ] Ch 8: Slices
 - [ ] Ch 9: Maps
