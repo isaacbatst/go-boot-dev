@@ -5,7 +5,7 @@ import (
 )
 
 func bulkSend(numMessages int) float64 {
-	// ?
+	return 1 + (0.01 * float64(numMessages-1))
 }
 
 // don't edit below this line
