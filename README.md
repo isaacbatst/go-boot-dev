@@ -17,3 +17,14 @@
 - [ ] Ch 13: Channels
 - [ ] Ch 14: Mutexes
 - [ ] Ch 15: Generics
+
+## Assignment
+
+Complete the maxMessages function. Given a cost threshold, it should calculate the maximum number of messages that can be sent.
+
+Each message costs 1.0, plus an additional fee. The fee structure is:
+
+1st message: 1.0 + 0.00
+2nd message: 1.0 + 0.01
+3rd message: 1.0 + 0.02
+4th message: 1.0 + 0.03
