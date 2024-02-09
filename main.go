@@ -3,6 +3,15 @@ package main
 import "fmt"
 
 func maxMessages(thresh float64) int {
+	total := 0.0
+
+	for i := 0; ; i++ {
+		price := 1.0 + (float64(i) * 0.01)
+		nextTotal := total + price
+		if nextTotal > thresh {
+			return i
+		}
+	}
 
 }
 
